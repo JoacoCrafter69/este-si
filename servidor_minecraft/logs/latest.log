@@ -1,45 +1,64 @@
-[04:47:40] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[04:47:40] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- java 21
-	- minecraft 1.21
-[04:47:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/este-si/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[04:47:46] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:47:47] [main/INFO]: No existing world data, creating new world
-[04:47:47] [main/INFO]: Loaded 1290 recipes
-[04:47:48] [main/INFO]: Loaded 1399 advancements
-[04:47:48] [Server thread/INFO]: Starting minecraft server version 1.21
-[04:47:48] [Server thread/INFO]: Loading properties
-[04:47:48] [Server thread/INFO]: Default game type: SURVIVAL
-[04:47:48] [Server thread/INFO]: Generating keypair
-[04:47:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:47:48] [Server thread/INFO]: Using epoll channel type
-[04:47:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:47:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:47:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:47:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:47:48] [Server thread/INFO]: Preparing level "world"
-[04:47:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:47:55] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[04:47:55] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[04:47:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[04:47:56] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[04:47:57] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[04:47:57] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[04:47:58] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[04:47:58] [Worker-Main-1/INFO]: Preparing spawn area: 34%
-[04:47:59] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[04:47:59] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[04:48:00] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[04:48:00] [Server thread/INFO]: Time elapsed: 5285 ms
-[04:48:00] [Server thread/INFO]: Done (11.527s)! For help, type "help"
-[05:02:03] [Server thread/INFO]: JoacoCrafter69[/127.186.76.148:36459] logged in with entity id 26 at (-19.5, 64.0, -68.5)
-[05:02:03] [Server thread/INFO]: JoacoCrafter69 joined the game
-[05:02:09] [Server thread/INFO]: [Not Secure] <JoacoCrafter69> j
-[05:02:21] [Server thread/INFO]: JoacoCrafter69 lost connection: Disconnected
-[05:02:21] [Server thread/INFO]: JoacoCrafter69 left the game
-[05:21:32] [Server thread/INFO]: JoacoCrafter69[/127.186.76.148:60005] logged in with entity id 386 at (-20.950584057003038, 64.0, -71.34522980684233)
-[05:21:32] [Server thread/INFO]: JoacoCrafter69 joined the game
-[05:21:45] [Server thread/INFO]: JoacoCrafter69 lost connection: Disconnected
-[05:21:45] [Server thread/INFO]: JoacoCrafter69 left the game
+[06:47:39] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[06:47:40] [main/WARN]: Mod resolution failed
+[06:47:40] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE bookshelf 21.1.49 {depends fabricloader @ [>=0.16.4]}, ROOT_FORCELOAD_SINGLE bookshelf 21.1.49]
+[06:47:40] [main/INFO]: Reason: [HARD_DEP bookshelf 21.1.49 {depends fabricloader @ [>=0.16.4]}, HARD_DEP bookshelf 21.1.49 {depends minecraft @ [1.21.1]}, HARD_DEP carryon 2.2.2 {depends minecraft @ [1.21.1]}, HARD_DEP clumps 19.0.0.1 {depends minecraft @ [1.21.1]}, HARD_DEP geckolib 4.7.3 {depends minecraft @ [>=1.21.1]}, HARD_DEP dynamicvillagertrades 1.4.0 {depends fabricloader @ [>=0.16.9]}, HARD_DEP easymagic 21.1.0 {depends minecraft @ [1.21.1]}, HARD_DEP puzzleslib 21.1.28 {depends minecraft @ [1.21.1]}, HARD_DEP forgeconfigapiport 21.1.3 {depends minecraft @ [1.21.1]}, HARD_DEP framework 0.9.4 {depends minecraft @ [1.21.1]}, HARD_DEP glitchcore 2.1.0.0 {depends minecraft @ [1.21.1]}, HARD_DEP modernfix 5.20.2+mc1.21.1 {depends fabricloader @ [>=0.16.10]}, HARD_DEP prickle 21.1.6 {depends fabricloader @ [>=0.16.4]}, HARD_DEP prickle 21.1.6 {depends minecraft @ [1.21.1]}, HARD_DEP refurbished_furniture 1.0.9 {depends minecraft @ [1.21.1]}, HARD_DEP revive 1.0.7 {depends minecraft @ [>=1.21.1]}, HARD_DEP revive 1.0.7 {depends fabricloader @ [>=0.16.5]}, HARD_DEP sereneseasons 10.1.0.3 {depends minecraft @ [1.21.1]}, HARD_DEP sophisticatedbackpacks 1.21.1-3.21.1.1.82 {depends fabricloader @ [>=0.16.9]}, HARD_DEP sophisticatedbackpacks 1.21.1-3.21.1.1.82 {depends minecraft @ [1.21.1]}, HARD_DEP sophisticatedcore 1.21.1-1.0.13.1.120 {depends minecraft @ [1.21.1]}, HARD_DEP sophisticatedcore 1.21.1-1.0.13.1.120 {depends fabricloader @ [>=0.16.9]}, HARD_DEP supplementaries 1.21-3.0.40-beta {depends fabricloader @ [>=0.16.7]}, HARD_DEP torchmaster 21.1.5-beta {depends minecraft @ [1.21.1]}, HARD_DEP cumulus_menus 2.0.3 {depends minecraft @ [~1.21.1]}, HARD_DEP porting_lib_conditions 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_conditions 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_core 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_core 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_fluids 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_fluids 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_item_abilities 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_item_abilities 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_lazy_registration 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_lazy_registration 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_level_events 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_level_events 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_loot 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_loot 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_model_loader 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_model_loader 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_render_types 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_render_types 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}, HARD_DEP porting_lib_transfer 3.1.0-beta.47+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_transfer 3.1.0-beta.47+1.21.1 {depends minecraft @ [>=1.21.1 <=1.21.2]}]
+[06:47:40] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, entity_model_features, fabric-keybindings-v0, entity_texture_features, iris, enchdesc, fastipping, mousetweaks, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, sodium, fabric-renderer-registries-v1, euphoria_patcher, fabric-rendering-v0, fabric-sound-api-v1, fabric-rendering-v1, fabric-key-binding-api-v1]
+[06:47:40] [main/INFO]: Fix: add [], remove [], replace [[minecraft 1.21] -> add:minecraft 1.21.1 ([[1.21.1,1.21.1]]), [fabricloader 0.16.3] -> add:fabricloader 0.16.10 ([[0.16.10,∞)])]
+[06:47:40] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace 'Minecraft' (minecraft) 1.21 with version 1.21.1.
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.10 or later.
+More details:
+	 - Mod 'Bookshelf' (bookshelf) 21.1.49 requires version 0.16.4 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Bookshelf' (bookshelf) 21.1.49 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Carry On' (carryon) 2.2.2 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Clumps' (clumps) 19.0.0.1 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'GeckoLib 4' (geckolib) 4.7.3 requires version 1.21.1 or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Dynamic Villager Trades' (dynamicvillagertrades) 1.4.0 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Easy Magic' (easymagic) 21.1.0 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Puzzles Lib' (puzzleslib) 21.1.28 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.3 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Framework' (framework) 0.9.4 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'GlitchCore' (glitchcore) 2.1.0.0 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'ModernFix' (modernfix) 5.20.2+mc1.21.1 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'PrickleMC' (prickle) 21.1.6 requires version 0.16.4 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'PrickleMC' (prickle) 21.1.6 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'MrCrayfish's Furniture Mod: Refurbished' (refurbished_furniture) 1.0.9 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Revive' (revive) 1.0.7 requires version 1.21.1 or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Revive' (revive) 1.0.7 requires version 0.16.5 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'SereneSeasons' (sereneseasons) 10.1.0.3 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Sophisticated Backpacks' (sophisticatedbackpacks) 1.21.1-3.21.1.1.82 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Sophisticated Backpacks' (sophisticatedbackpacks) 1.21.1-3.21.1.1.82 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Sophisticated Core' (sophisticatedcore) 1.21.1-1.0.13.1.120 requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Sophisticated Core' (sophisticatedcore) 1.21.1-1.0.13.1.120 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Supplementaries' (supplementaries) 1.21-3.0.40-beta requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Torchmaster' (torchmaster) 21.1.5-beta requires version 1.21.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Cumulus' (cumulus_menus) 2.0.3 requires any version between 1.21.1 (inclusive) and 1.22- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Conditions' (porting_lib_conditions) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Conditions' (porting_lib_conditions) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Core' (porting_lib_core) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Core' (porting_lib_core) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Fluids' (porting_lib_fluids) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Fluids' (porting_lib_fluids) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Item Abilities' (porting_lib_item_abilities) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Item Abilities' (porting_lib_item_abilities) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Lazy Register' (porting_lib_lazy_registration) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Lazy Register' (porting_lib_lazy_registration) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Level Events' (porting_lib_level_events) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Level Events' (porting_lib_level_events) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Loot' (porting_lib_loot) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Loot' (porting_lib_loot) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Model Loader' (porting_lib_model_loader) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Model Loader' (porting_lib_model_loader) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Render Types' (porting_lib_render_types) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Render Types' (porting_lib_render_types) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Porting Lib Transfer' (porting_lib_transfer) 3.1.0-beta.47+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Porting Lib Transfer' (porting_lib_transfer) 3.1.0-beta.47+1.21.1 requires any version between 1.21.1 (inclusive) and 1.21.2 (inclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
